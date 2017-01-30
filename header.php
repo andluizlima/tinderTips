@@ -8,16 +8,32 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
 	<?php wp_head(); ?>
-	<link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" rel="stylesheet">
-	<link href="<?php bloginfo('template_directory'); ?>/css/jra.css" rel="stylesheet">
+	<link href="<?php bloginfo('template_directory'); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?php bloginfo('template_directory'); ?>/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 	<header>
 		<div class="backgroundTransparencia">
-			<img src="images/tinder.jpg">
-			<nav>
-				
+			<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="index.php">Tinder Tips</a>
+			    </div>
+			    <ul class="nav navbar-nav navbar-right">
+			      <li><a href="index.html">Home</a></li>
+			      <li><a href="#">Dicas</a></li>
+			      <li><a href="#">Contato</a></li>
+			    </ul>
+			  </div>
 			</nav>
+			<div class="centralizar">
+				<h1>ASK. COPY. BE DEDS.</h1>
+				<p>As melhores dicas de superação de quem ficava um ano pra conseguir três matches e hoje consegue mais do que isso por dia.</p>
+			</div>
+			<div class="centralizarBotoes">
+				<a href="#" id="left">Swipe Left</a>
+				<a href="#" id="right">Swipe Right</a>
+			</div>
 		</div>
 	</header>

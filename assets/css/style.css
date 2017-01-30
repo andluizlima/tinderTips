@@ -1,0 +1,71 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+header{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-image: url("../../images/tinder.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.navbar{
+	background-color: rgba(0,0,0,0);
+	border-style: none;
+	border-radius: none;
+}
+.container-fluid{
+	padding: 70px;
+	color: white;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+	font-family: monospace;
+	font-size: 18px;
+}
+.backgroundTransparencia{
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 100%;
+}
+.navbar-inverse .navbar-brand{
+	color: white;
+	font-family: monospace;
+	font-size: 30px;
+}
+.centralizar{
+	text-align: center;
+	height: 100px;
+	width: 800px;
+	position: absolute;
+	top: calc(50% - 50px);
+	left: calc(50% - 400px);
+	color: white;
+}
+.centralizar h1{
+	font-size: 50px;
+}
+.centralizar p{
+	color: #ddd;
+	font-size: 18px;
+}
+.centralizarBotoes{
+	text-align: center;
+	height: 60px;
+	width: 800px;
+	position: absolute;
+	top: 70%;
+	left: calc(50% - 400px);
+}
+.centralizarBotoes a{
+	margin: 100px;
+	color: white;
+	padding: 20px 20px;
+	background-color: white;
+}
+#left{
+	color: red;
+}
+#right{
+	color: green;
+}
